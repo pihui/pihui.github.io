@@ -1,23 +1,35 @@
-body{
+body {
     margin: 0;
     padding: 0;
-
 }
-div{
+
+div {
     position: absolute;
 }
 
-.bg{
-    width: 800th;
-    height: 600th;
-    background-color: blue;
+.bg {
+    width: 800px;
+    height: 600px;
+    background: #f2f2f2;
     overflow: hidden;
 }
-.beam{
+
+.beam {
     width: 1600px;
     height: 20px;
-    background-color: crimson;
+    background: #fff;
     top: 290px;
     left: -400px;
+}
 
+.img_div {
+    margin: 10px auto;
+}
+
+img {
+    position: fixed;
+    top: 160px;
+    left: 225px;
+    width: 335px;
+    border-radius: 50%;
 }
